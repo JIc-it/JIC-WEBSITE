@@ -58,7 +58,7 @@ const Contact = () => {
                                                         </button>
 
                                                         <div className={`collapse `} id={`collapse${item.location}`} data-parent='#accordion'>
-                                                            <div className="card card-body">
+                                                            <div className="card m-0 card-body">
                                                                 <p>{item.address}</p>
                                                             </div>
                                                         </div>

@@ -21,7 +21,7 @@ const Header = () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-    
+
     return (
         <>
             <header>
@@ -71,12 +71,12 @@ const Header = () => {
                                 <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                                     <div className="logo">
                                         <Link to="/">
-                                            <img src={LogoWhite} alt="logo" className='w-50' />
+                                            <img src={LogoWhite} alt="logo" style={{ width: '40%' }} />
                                         </Link>
                                     </div>
                                     <div className="logo-gradient">
                                         <Link to="/">
-                                            <img src={Logo} alt="logo" className='w-50' />
+                                            <img src={Logo} alt="logo" style={{ width: '40%' }} />
                                         </Link>
                                     </div>
                                 </div>

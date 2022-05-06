@@ -5,7 +5,7 @@ const Herosection = () => {
 
     // console.log({Video})
     return (
-        
+
 
         <section>
             <div className='single-slider'>
@@ -28,6 +28,7 @@ const Herosection = () => {
 
 
                 <video
+                    playsInline
                     className='video__herosection'
                     muted
                     autoPlay={"autoplay"}
