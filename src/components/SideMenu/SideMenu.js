@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Context } from '../../common/Context'
 import BodyOverlay from '../BodyOverlay/BodyOverlay'
+import LogoWhite from '../../Assets/Logos/JOBIN INTERNATIONAL NEW LOGO (W).png'
 
 const SideMenu = () => {
     const { pathname } = useLocation()
@@ -37,7 +38,7 @@ const SideMenu = () => {
                             <div className={`tab-pane fade ${activeTab === 1 && 'show active'}`} id="menu" role="tabpanel" aria-labelledby="menu-tab">
                                 <div className="logo mb-40">
                                     <a href="index.html">
-                                        <img src="assets/img/logo/logo.png" alt="logo" />
+                                        <img src={LogoWhite} style={{ width: '35%' }} alt="logo" />
                                     </a>
                                 </div>
                                 <div className="mobile-menu mean-container"><div className="mean-bar"><a href="#nav" className="meanmenu-reveal" style={{ right: 0, left: 'auto', display: 'inline' }}><span><span><span /></span></span></a>
@@ -55,7 +56,7 @@ const SideMenu = () => {
                                 <div className="sidebar__info">
                                     <div className="logo mb-40">
                                         <a href="index.html">
-                                            <img src="assets/img/logo/logo.png" alt="logo" />
+                                            <img src={LogoWhite} style={{ width: '35%' }} alt="logo" />
                                         </a>
                                     </div>
                                     <p>We must explain to you how all seds this mistakens idea off denouncing pleasures and praising pain was born and I will give you a completed accounts of the system and expound.</p>

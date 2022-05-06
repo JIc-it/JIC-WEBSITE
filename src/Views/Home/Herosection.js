@@ -15,7 +15,7 @@ const Herosection = () => {
                             <div className="col-xl-9 col-lg-9 col-md-10 col-sm-10">
                                 <div className="slider__content">
                                     <span data-animation="fadeInUp" data-delay=".3s" className style={{ animationDelay: '0.3s' }}>We’ve added a new exciting feature in v2.0.</span>
-                                    <h1 data-animation="fadeInUp" data-delay=".5s" className style={{ animationDelay: '0.5s' }}>Get all the essentials <br /> in a lightweight package</h1>
+                                    <h1 data-animation="fadeInUp" data-delay=".5s" className style={{ animationDelay: '0.5s' }}>The Fastest Growing<br /> Multifunctional Company</h1>
                                     <div className="slider__btn" data-animation="fadeInUp" data-delay=".7s" style={{ animationDelay: '0.7s' }}>
                                         {/* <a href="contact.html" className="z-btn z-btn-transparent" tabIndex={0}>Get a quote</a> */}
                                     </div>

@@ -57,7 +57,7 @@ const Contact = () => {
                                                             {item.location}
                                                         </button>
 
-                                                        <div className={`collapse ${idx === activeId ? 'show' : ''}`} id={`collapse${item.location}`} data-parent='#accordion'>
+                                                        <div className={`collapse `} id={`collapse${item.location}`} data-parent='#accordion'>
                                                             <div className="card card-body">
                                                                 <p>{item.address}</p>
                                                             </div>
