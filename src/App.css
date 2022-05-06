@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+@media screen and (max-width:992px) {
+  header .mobile-menu {
+    display: none;
+  }
+}
+
+video::-webkit-media-controls {
+  display: none;
+}
+
+.video__herosection {
+  width: 100%;
+}
+
+@media screen and (max-width:992px) {
+  .video__herosection {
+    min-height: 76vh;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .video__herosection {
+    height: 100vh;
+    object-fit: cover;
+  }
+}
+
+.hero-content-area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -20px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.slick-arrow.slick-prev {
+  left: 0;
+  background: url("https://img.icons8.com/ios/50/000000/long-arrow-left.png") 0 0 / 100% no-repeat !important;
+  transform: translateY(50%);
+}
+
+.slick-arrow.slick-next {
+  right: 0;
+  background: url("https://img.icons8.com/ios/50/000000/long-arrow-right.png") 0 0 / 100% no-repeat !important;
+  transform: translateY(50%);
+}
+
+.slider .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: unset !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 768px) {
+  .faq__area {
+    flex-direction: column-reverse;
+  }
+}
