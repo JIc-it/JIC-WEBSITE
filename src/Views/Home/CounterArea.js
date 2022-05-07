@@ -16,7 +16,7 @@ const CounterArea = () => {
                     <div className="row">
                         {data.map(item => (
 
-                            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                                 <div className="counter__item text-center mb-30">
                                     <h2 className="counter">
                                         <CountUp end={item.count} />

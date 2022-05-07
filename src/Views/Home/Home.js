@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import { Context } from '../../common/Context'
 import AboutArea from './AboutArea'
 import ContactArea from './ContactArea'
 import CounterArea from './CounterArea'
@@ -9,7 +10,7 @@ import OurServiceArea from './OurService/OurServiceArea'
 import TeamArea from './TeamArea/TeamArea'
 
 const Home = () => {
-  const [IsMObile, setIsMObile] = useState(false)
+  const { IsMObile, setIsMObile } = useContext(Context)
 
   useEffect(() => {
     window.addEventListener('resize', handleResize)

@@ -8,8 +8,8 @@ const TeamArea = () => {
         {name:'Indigo Violet', position:`Project Manager`, userImg:'assets/img/team/team-2.jpg'},
         {name:'Dylan Meringue', position:`Support`, userImg:'assets/img/team/team-3.jpg'},
         {name:'Berlin Corleone', position:`App Developer`, userImg:'assets/img/team/team-4.jpg'},
-        {name:'Shahnewaz Sakil', position:`Web Developer`, userImg:'assets/img/team/team-5.jpg'},
-        {name:'Norman Gordon', position:`Associate Consultant`, userImg:'assets/img/team/team-6.jpg'},
+        // {name:'Shahnewaz Sakil', position:`Web Developer`, userImg:'assets/img/team/team-5.jpg'},
+        // {name:'Norman Gordon', position:`Associate Consultant`, userImg:'assets/img/team/team-6.jpg'},
     ]
     return (
         <section className="team__area pt-30 pb-110">

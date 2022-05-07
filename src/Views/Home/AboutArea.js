@@ -5,7 +5,7 @@ const AboutArea = () => {
         <section className="about__area pb-100 pt-100">
             <div className="container">
                 <div className="row">
-                    <div className="col-xl-6 pr-0 col-lg-6">
+                    <div className="col-xl-6 pr-0 col-lg-6 d-none d-md-flex ">
                         <div className="about__thumb m-img wow fadeInLeft" data-wow-delay=".2s" style={{ visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInLeft' }}>
                             <img src="assets/img/about/about-1.jpg" alt />
                             <div className="about__shape">

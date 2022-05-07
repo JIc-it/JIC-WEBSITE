@@ -1662,14 +1662,14 @@ p {
   position: absolute;
 }
 .slider__shape img.triangle {
-  right: 28%;
-  bottom: 38%;
+  right: 5%;
   animation: triangle 5s linear 0s infinite alternate;
   -webkit-animation: triangle 5s linear 0s infinite alternate;
+  top: 14%;
 }
 .slider__shape img.dotted-square {
-  right: 22%;
-  bottom: 31%;
+  right: 3%;
+  top: 20%;
   animation: dottedSquare 8s linear 0s infinite alternate;
   -webkit-animation: dottedSquare 8s linear 0s infinite alternate;
 }
@@ -1807,11 +1807,11 @@ p {
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
   .features__inner {
     margin-top: 100px;
   }
-}
+} */
 .features__item {
   position: relative;
   border-right: 1px solid #ad40fc;

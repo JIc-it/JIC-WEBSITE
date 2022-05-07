@@ -51,14 +51,14 @@ const Header = () => {
                                             <li>
                                                 <a href="https://themepure.net/cdn-cgi/l/email-protection#721b1c141d32111d1c01071e061b1c155c111d1f">
                                                     <i className="fal fa-envelope" />
-                                                    <span className="__cf_email__" data-cfemail="f79e999198b794989984829b839e9990d994989a">[email&nbsp;protected]</span>
+                                                    <a href='mailto:info@jobininternational.online'>info@jobininternational.online</a>
                                                 </a>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <a href="javascript:void(0);" className="search-toggle">
                                                     <i className="far fa-search" />
                                                 </a>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                 </div>

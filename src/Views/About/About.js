@@ -7,7 +7,6 @@ const About = () => {
         <>
             <PageTopComponent pageTitle={'About us'} />
             <AboutArea />
-
         </>
     )
 }

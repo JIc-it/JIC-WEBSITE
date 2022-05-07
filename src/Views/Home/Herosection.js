@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useContext, useEffect, useRef } from 'react'
 import Video from '../../Assets/Video/Sony 4K Demo_ Another World_Trim.mp4'
+import PosterImg from '../../Assets/Images/mike-kononov.jpg'
+import { Context } from '../../common/Context'
 
 const Herosection = () => {
+    const ref = useRef()
+    const { IsMObile } = useContext(Context)
 
-    // console.log({Video})
+    console.log({ ref })
+
+    useEffect(() => {
+
+        ref.current && ref.current.play()
+
+
+    }, [ref.current])
+
     return (
 
 
@@ -26,17 +38,23 @@ const Herosection = () => {
                     </div>
                 </div>
 
+                {IsMObile ?
+                    <img src={PosterImg} alt="" className='w-100' style={{ height: '35rem', objectFit: 'cover' }} />
+                    :
+                    <video
+                        ref={ref}
+                        playsInline={true}
+                        className='video__herosection'
+                        muted
+                        autoPlay={"autoplay"}
+                        preLoad="auto"
+                        controls={false}
+                        poster={PosterImg}
+                        loop >
+                        <source src={Video} type="video/mp4" />
+                    </video>
+                }
 
-                <video
-                    playsInline
-                    className='video__herosection'
-                    muted
-                    autoPlay={"autoplay"}
-                    preLoad="auto"
-                    loop >
-                    <source src={Video} type="video/mp4" />
-                    {/* <source src={Video} type="video/ogg" /> */}
-                </video>
             </div>
         </section>
 

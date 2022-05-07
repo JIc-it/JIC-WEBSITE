@@ -15,10 +15,11 @@ import Home from './Views/Home/Home';
 
 const Router = () => {
     const [isModalOpen, setisModalOpen] = useState(false)
-
+    const [IsMObile, setIsMObile] = useState(false)
     return (
         <Context.Provider value={{
-            isModalOpen, setisModalOpen
+            isModalOpen, setisModalOpen,
+            IsMObile, setIsMObile,
         }}>
             <BrowserRouter>
                 <ScrollTop />
