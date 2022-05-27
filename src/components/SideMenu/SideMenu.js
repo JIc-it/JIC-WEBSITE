@@ -59,14 +59,16 @@ const SideMenu = () => {
                                             <img src={LogoWhite} style={{ width: '35%' }} alt="logo" />
                                         </a>
                                     </div>
-                                    <p>We must explain to you how all seds this mistakens idea off denouncing pleasures and praising pain was born and I will give you a completed accounts of the system and expound.</p>
-                                    <a href="contact.html" className="z-btn z-btn-white">contact us</a>
-                                    <div className="sidebar__search">
+                                    <p>
+                                    Jobin International Company is the ace among the major multi-functional companies in Kuwait. With the pledge to cultivate the industrial fortune of Kuwait, the syndicate earns its legacy with innovations and conscientiousness.
+                                    </p>
+                                    <Link to="/contact" className="z-btn z-btn-white">contact us</Link>
+                                    {/* <div className="sidebar__search">
                                         <form action="#">
                                             <input type="text" placeholder="Your Keywords.." />
                                             <button type="submit"><i className="fal fa-search" /></button>
                                         </form>
-                                    </div>
+                                    </div> */}
                                     <div className="sidebar__contact mt-30">
                                         <ul>
                                             <li>
@@ -74,7 +76,9 @@ const SideMenu = () => {
                                                     <i className="fal fa-map-marker-alt" />
                                                 </div>
                                                 <div className="text">
-                                                    <span>Ave 14th Street, Mirpur 210, San Franciso, USA 3296.</span>
+                                                    <span>
+                                                    Kuwait City, Qibla Block No :15 street Ali Al Salem Adel tower Kuwait City, 15000, Kuwait
+                                                    </span>
                                                 </div>
                                             </li>
                                             <li>
@@ -82,7 +86,7 @@ const SideMenu = () => {
                                                     <i className="fal fa-envelope" />
                                                 </div>
                                                 <div className="text ">
-                                                    <span><a href="mailto:support@zibber.com">support@zibber.com</a></span>
+                                                    <span><a href='mailto:info@jobininternational.online'>info@jobininternational.online</a></span>
                                                 </div>
                                             </li>
                                             <li>
@@ -90,7 +94,7 @@ const SideMenu = () => {
                                                     <i className="fas fa-phone-alt" />
                                                 </div>
                                                 <div className="text">
-                                                    <span><a href="tel:(+642)-394-396-432">(+642) 394 396 432</a></span>
+                                                <span><a href="tel:+96522454565">+965 22454565</a></span>
                                                 </div>
                                             </li>
                                         </ul>

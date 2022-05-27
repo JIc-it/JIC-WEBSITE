@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Context } from '../../common/Context'
 import SideMenu from '../SideMenu/SideMenu'
-import LogoWhite from '../../Assets/Logos/JOBIN INTERNATIONAL NEW LOGO (W).png'
+import LogoWhite from '../../Assets/Logos/logo-02.png'
 import Logo from '../../Assets/Logos/JOBIN INTERNATIONAL NEW LOGO.png'
 
 
@@ -32,10 +32,10 @@ const Header = () => {
                                 <div className="col-xl-6 col-lg-5 col-md-4">
                                     <div className="header__social">
                                         <ul>
-                                            <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                                            <li><a href="#"><i className="fab fa-twitter" /></a></li>
-                                            <li><a href="#"><i className="fab fa-linkedin-in" /></a></li>
-                                            <li><a href="#"><i className="fab fa-pinterest-p" /></a></li>
+                                            <li><a href="https://www.facebook.com/jobininternational.online"><i className="fab fa-facebook-f" /></a></li>
+                                            <li><a href="https://www.instagram.com/jobin_international_company/"><i className="fab fa-instagram" /></a></li>
+                                            <li><a href="https://www.linkedin.com/company/jobin-international-company-kuwait"><i className="fab fa-linkedin-in" /></a></li>
+                                            {/* <li><a href="#"><i className="fab fa-pinterest-p" /></a></li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -43,9 +43,9 @@ const Header = () => {
                                     <div className="header__info f-right">
                                         <ul>
                                             <li>
-                                                <a href="tel:(+468)-254-762-443">
+                                                <a href="tel:+96522454565">
                                                     <i className="fal fa-phone-alt" />
-                                                    (+468) 254 762 443
+                                                    +965 22454565
                                                 </a>
                                             </li>
                                             <li>

@@ -14,16 +14,16 @@ const ContactArea = () => {
                                     <ul>
                                         <li>
                                             <h4>Address</h4>
-                                            <p>24 Parking Plaza, Suite 506 <br /> Ardmore, SA 19004</p>
+                                            <p>Kuwait City, Qibla Block No :15 street Ali Al Salem Adel tower Kuwait City, 15000, Kuwait</p>
                                         </li>
                                         <li>
                                             <h4>call us</h4>
-                                            <p><a href="tel:(404)-888-123-456">(404) 888 123 456</a></p>
-                                            <p><a href="tel:(204)-888-234-674">(204) 888 234 674</a></p>
+                                            <p><a href="tel:(404)-888-123-456">+965 22454565</a></p>
+                                            {/* <p><a href="tel:(204)-888-234-674">(204) 888 234 674</a></p> */}
                                         </li>
                                         <li>
                                             <h4>Email Address</h4>
-                                            <p><a href="mailto:Info@example.com">Info@example.com</a></p>
+                                            <p><a href="mailto:info@jobininternational.online">info@jobininternational.online</a></p>
                                         </li>
                                     </ul>
                                 </div>

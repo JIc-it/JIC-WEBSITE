@@ -44,7 +44,7 @@ const Home = () => {
       }
       <OurServiceArea />
       <CounterArea />
-      <TeamArea />
+      {/* <TeamArea /> */}
       <OurClientsArea />
       <ContactArea />
     </>

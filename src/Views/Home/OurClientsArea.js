@@ -6,11 +6,11 @@ import "slick-carousel/slick/slick-theme.css";
 const OurClientsArea = () => {
 
     var settings = {
-        dots: true,
+        
         infinite: true,
         speed: 750,
         // arrows:false,
-        // autoplay:true,
+        autoplay:true,
         slidesToShow: 4,
         slidesToScroll: 4,
         initialSlide: 0,
@@ -20,6 +20,7 @@ const OurClientsArea = () => {
         // cssEase: "linear",
         responsive: [
             {
+                dots: true,
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
@@ -29,6 +30,7 @@ const OurClientsArea = () => {
                 }
             },
             {
+                dots: true,
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
@@ -37,6 +39,7 @@ const OurClientsArea = () => {
                 }
             },
             {
+                dots:false,
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
@@ -45,6 +48,21 @@ const OurClientsArea = () => {
             }
         ]
     };
+
+    const images = importAll(require.context('../../Assets/Client Logos', false, /\.(png|jpe?g|svg)$/));
+
+    function importAll(r) {
+        let images = {};
+        let arr = []
+        // r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
+        r.keys().forEach((item, index) => {
+            arr.push(r(item))
+        });
+        return arr
+    }
+
+
+    console.log(images)
 
     return (
         <section className="brand__area p-relative pt-100 pb-150">
@@ -75,21 +93,13 @@ const OurClientsArea = () => {
 
 
                         <Slider {...settings}>
-                            <div className="brand__item px-4">
-                                <img src="assets/img/brand/brand-1.png" alt  />
-                            </div>
-                            <div className="brand__item px-4">
-                                <img src="assets/img/brand/brand-2.png" alt  />
-                            </div>
-                            <div className="brand__item px-4">
-                                <img src="assets/img/brand/brand-3.png" alt  />
-                            </div>
-                            <div className="brand__item px-4">
-                                <img src="assets/img/brand/brand-4.png" alt  />
-                            </div>
-                            <div className="brand__item px-4">
-                                <img src="assets/img/brand/brand-5.png" alt  />
-                            </div>
+                            {images.map(item => (
+
+                                <div className="brand__item px-4 mb-20">
+                                    <img src={item} alt />
+                                </div>
+                            ))}
+
                         </Slider>
 
                     </div>
