@@ -17,8 +17,8 @@ const AboutArea = () => {
                     <div className="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1">
                         <div className="about__content wow fadeInRight" data-wow-delay=".4" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
                             <div className="section__title mb-25">
-                                <span>Who we are</span>
-                                <h2>We Unlock Potential</h2>
+                                <span>Made the Present and Making the Future</span>
+                                <h2>The Legacy that Makes Destinies! </h2>
                             </div>
                             <p>
                                 Jobin International Company is the ace among the major multi-functional companies in Kuwait. With the pledge to cultivate the industrial fortune of Kuwait, the syndicate earns its legacy with innovations and conscientiousness.

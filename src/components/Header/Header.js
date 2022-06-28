@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Context } from '../../common/Context'
 import SideMenu from '../SideMenu/SideMenu'
-import LogoWhite from '../../Assets/Logos/logo-02.png'
+import LogoWhite from '../../Assets/Logos/jic logo white new-01.png'
 import Logo from '../../Assets/Logos/JOBIN INTERNATIONAL NEW LOGO.png'
 
 

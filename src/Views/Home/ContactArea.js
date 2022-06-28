@@ -14,7 +14,7 @@ const ContactArea = () => {
                                     <ul>
                                         <li>
                                             <h4>Address</h4>
-                                            <p>Kuwait City, Qibla Block No :15 street Ali Al Salem Adel tower Kuwait City, 15000, Kuwait</p>
+                                            <p>Kuwait City, Qibla Block No :15 Street Ali Al Salem Adel Tower Kuwait City, 15000, Kuwait</p>
                                         </li>
                                         <li>
                                             <h4>call us</h4>

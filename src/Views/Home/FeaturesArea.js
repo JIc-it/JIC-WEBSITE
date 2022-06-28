@@ -1,10 +1,11 @@
 import React from 'react'
-import JicCinemaLogo from '../../Assets/Logos/logo-03.png'
-import FlyworldLogo from '../../Assets/Logos/logo-06.png'
-import JIALogo from '../../Assets/Logos/JIA-01-01.png'
-import BlueRaysLogo from '../../Assets/Logos/logo-01.png'
-import JobinLogo from '../../Assets/Logos/JOBIN HRD 84.png'
-import JicITLogo from '../../Assets/Logos/jic-it.png'
+import JicCinemaLogo from '../../Assets/Logos/CINEMA1-01.png'
+import FlyworldLogo from '../../Assets/Logos/flyworld_v (1).png'
+import JIALogo from '../../Assets/Logos/JIA_v.png'
+// import BlueRaysLogo from '../../Assets/Logos/logo-01.png'
+import BlueRaysLogo from '../../Assets/Logos/blue rays logo web_cvv.png'
+import JobinLogo from '../../Assets/Logos/JIHRD_v-01.png'
+import JicITLogo from '../../Assets/Logos/it_v (1).png'
 
 const FeaturesArea = () => {
 
@@ -28,9 +29,9 @@ const FeaturesArea = () => {
                                 <div className="features__item text-center">
                                     <div className="features__thumb" data-background="assets/img/features/features-1.jpg" style={{ backgroundImage: 'url("assets/img/features/features-1.jpg")' }} />
                                     <div className="features__content">
-                                        <div className="features__icon">
+                                        <div className="features__icon d-flex justify-content-center align-items-center" style={{height:'9rem'}}>
                                             {/* <i className={item.icon} /> */}
-                                            <img src={item.icon} alt="" />
+                                            <img src={item.icon} alt="" className={item.companyName == 'Bluerays' ? 'w-50' : 'w-75'} />
                                         </div>
                                         <p style={{
                                             color: 'white',
@@ -60,11 +61,11 @@ const FeaturesArea = () => {
 
 export default FeaturesArea
 export const companies = [
-    { icon: BlueRaysLogo, title: 'Destinies deserve to be Constructed! Blue Rays Building Dreams of Tomorrow…' ,companyName:'Bluerays', url:'https://www.bluerays.com.kw/'},
-    { icon: JIALogo, title: 'Win the Workplace with the winning Workforce…! Growth=Skill+ The right Labour ' ,companyName:'job In Arabia', url:'https://www.job-in-arabia.com/'},
-    { icon: JobinLogo, title: 'The Leader who makes your Business Empire! Ace your success with the right Workforce…' ,companyName:'JIHRD', url:'http://jihrd.in/'},
-    { icon: FlyworldLogo, title: ' Fly together, to breathe the altitudes and embrace the memories…' ,companyName:'Flyworld', url:'https://www.flyworld.com.kw/'},
-    { icon: JicCinemaLogo, title: 'Treasuring the Art of Cinema, The Wizard who paints the Masterpiece… ' ,companyName:'JIC Cinemas', url:''},
-    { icon: JicITLogo, title: 'Innovating Future beyond Time… The Torchbearer for a New Dawn. ' ,companyName:'JIC IT Solution', url:''},
+    { icon: BlueRaysLogo, title: 'Destinies deserve to be Constructed! Blue Rays Building Dreams of Tomorrow…', companyName: 'Bluerays', url: 'https://www.bluerays.com.kw/' },
+    { icon: JIALogo, title: 'Win the Workplace with the winning Workforce…! Growth=Skill+ The right Labour ', companyName: 'Job In Arabia', url: 'https://www.job-in-arabia.com/' },
+    { icon: JobinLogo, title: 'The Leader who makes your Business Empire! Ace your success with the right Workforce…', companyName: 'JIHRD', url: 'http://jihrd.in/' },
+    { icon: FlyworldLogo, title: ' Fly together, to breathe the altitudes and embrace the memories…', companyName: 'Flyworld', url: 'https://www.flyworld.com.kw/' },
+    { icon: JicCinemaLogo, title: 'Treasuring the Art of Cinema, The Wizard who paints the Masterpiece… ', companyName: 'JI Cinemas', url: '' },
+    { icon: JicITLogo, title: 'Innovating Future beyond Time… The Torchbearer for a New Dawn. ', companyName: 'JIC IT Solutions', url: 'https://jicitsolution.com/' },
 
 ]

@@ -6,11 +6,11 @@ import "slick-carousel/slick/slick-theme.css";
 const OurClientsArea = () => {
 
     var settings = {
-        
+
         infinite: true,
         speed: 750,
         // arrows:false,
-        autoplay:true,
+        autoplay: true,
         slidesToShow: 4,
         slidesToScroll: 4,
         initialSlide: 0,
@@ -21,12 +21,21 @@ const OurClientsArea = () => {
         responsive: [
             {
                 dots: true,
-                breakpoint: 1024,
+                breakpoint: 1240,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: true
+                }
+            },
+            {
+                dots: true,
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
                 }
             },
             {
@@ -39,7 +48,7 @@ const OurClientsArea = () => {
                 }
             },
             {
-                dots:false,
+                dots: false,
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
@@ -73,19 +82,19 @@ const OurClientsArea = () => {
                 <img className="triangle" src="assets/img/icon/brand/trianlge.png" alt />
             </div>
             <div className="container">
-                <div className="row">
+                <div className="row mb-40">
                     <div className="col-xl-4 offset-xl-1 col-lg-4 offset-lg-1">
                         <div className="section__title mb-30">
-                            <span>Our Clients</span>
+                            <span>Subsidiaries </span>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-7">
                         <div className="section__title section__title-3 wow fadeInUp" data-wow-delay=".2s" style={{ visibility: 'visible', animationDelay: '0.2s', animationName: 'fadeInUp' }}>
-                            <h2>More than 7,962 designers use konsul.</h2>
+                            <h2>Our Alliance to Make the Tomorrow Together. </h2>
                         </div>
-                        <div className="brand__subtitle mb-90 wow fadeInUp" data-wow-delay=".4s" style={{ visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInUp' }}>
-                            <p>Design anything from simple icons to fully featured websites and applications.</p>
-                        </div>
+                        {/* <div className="brand__subtitle mb-90 wow fadeInUp" data-wow-delay=".4s" style={{ visibility: 'visible', animationDelay: '0.4s', animationName: 'fadeInUp' }}>
+                            <p>Our Alliance to Make the Tomorrow Together. </p>
+                        </div> */}
                     </div>
                 </div>
                 <div className="row ">

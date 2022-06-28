@@ -15,7 +15,7 @@ const ServiceCard = ({ icon, url, description, title }) => {
                         {/* <a href={url}>{title}</a> */}
                         <>{title}</>
                     </h3>
-                    <p>{description}</p>
+                    <p style={{textAlign:'justify'}}>{description}</p>
                 </div>
             </div>
         </div>

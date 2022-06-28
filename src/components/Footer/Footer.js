@@ -39,7 +39,7 @@ const Footer = () => {
                                         <div className="footer__links">
                                             <ul>
                                                 {companies.map(item => (
-                                                    <li><a href={item.url}>{item.companyName}</a></li>
+                                                    <li><a href={item.url} target={'_blank'}>{item.companyName}</a></li>
                                                 ))}
 
 
@@ -64,7 +64,7 @@ const Footer = () => {
                                                     </div>
                                                     <div className="text">
                                                         <span>
-                                                            Kuwait City, Qibla Block No :15 street Ali Al Salem Adel tower Kuwait City, 15000, Kuwait
+                                                            Kuwait City, Qibla Block No :15 Street Ali Al Salem Adel Tower Kuwait City, 15000, Kuwait
                                                         </span>
                                                     </div>
                                                 </li>
@@ -95,12 +95,17 @@ const Footer = () => {
                 <div className="footer__copyright">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-xl-6 col-lg-6 col-md-6">
+                            <div className="col-xl-4 col-lg-4 col-md-4">
                                 <div className="footer__copyright-text">
-                                    <p>Copyright © {date.getFullYear()} All Rights Reserved by <Link to="/">JIC IT Solution</Link></p>
+                                    <p> Powered By <a target={'_blank'} href="https://jicitsolution.com/">JIC IT Solutions</a></p>
                                 </div>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6">
+                            <div className="col-xl-4 col-lg-4 col-md-4">
+                                <div className="footer__copyright-text">
+                                    <p> © {date.getFullYear()} All Rights Reserved by Jobin International</p>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-lg-4 col-md-4">
                                 <div className="footer__social theme-social f-right">
                                     <ul>
                                         <li>

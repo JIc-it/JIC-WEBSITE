@@ -20,7 +20,14 @@ video::-webkit-media-controls {
   width: 100%;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:600px) {
+  .video__herosection {
+    min-height: 50vh;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:992px) {
   .video__herosection {
     min-height: 76vh;
     object-fit: cover;
@@ -31,6 +38,12 @@ video::-webkit-media-controls {
   .video__herosection {
     height: 100vh;
     object-fit: cover;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .footer__copyright{
+    text-align: center;
   }
 }
 

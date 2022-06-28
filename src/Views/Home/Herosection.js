@@ -10,10 +10,7 @@ const Herosection = () => {
     console.log({ ref })
 
     useEffect(() => {
-
         ref.current && ref.current.play()
-
-
     }, [ref.current])
 
     return (
@@ -41,7 +38,7 @@ const Herosection = () => {
                     : */}
                     <video
                         ref={ref}
-                        playsinline={true} 
+                        playsInline 
                         className='video__herosection'
                         muted={true}
                         autoPlay={true}
