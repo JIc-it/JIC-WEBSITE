@@ -64,7 +64,7 @@ const Footer = () => {
                                                     </div>
                                                     <div className="text">
                                                         <span>
-                                                            Kuwait City, Qibla Block No :15 Street Ali Al Salem Adel Tower Kuwait City, 15000, Kuwait
+                                                            Kuwait City, Qibla Block No :15 Street Ali Al Salem Adel Tower Kuwait City,  Kuwait
                                                         </span>
                                                     </div>
                                                 </li>

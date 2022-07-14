@@ -3,9 +3,9 @@ import JicCinemaLogo from '../../Assets/Logos/CINEMA1-01.png'
 import FlyworldLogo from '../../Assets/Logos/flyworld_v (1).png'
 import JIALogo from '../../Assets/Logos/JIA_v.png'
 // import BlueRaysLogo from '../../Assets/Logos/logo-01.png'
-import BlueRaysLogo from '../../Assets/Logos/blue rays logo web_cvv.png'
+import BlueRaysLogo from '../../Assets/Logos/BR LOGO 28-06-2022 WHITE.png'
 import JobinLogo from '../../Assets/Logos/JIHRD_v-01.png'
-import JicITLogo from '../../Assets/Logos/it_v (1).png'
+import JicITLogo from '../../Assets/Logos/JIC IT SOLUTIONS LOGO WHITE.png'
 
 const FeaturesArea = () => {
 

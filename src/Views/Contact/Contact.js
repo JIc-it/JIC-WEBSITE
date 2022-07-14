@@ -7,7 +7,7 @@ const Contact = () => {
     const ref = useRef([])
 
     const Address = [
-        { location: 'Kuwait', address: 'Kuwait City, Qibla Block No :15 Street Ali Al Salem Adel Tower Kuwait City, 15000, Kuwait', mapUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13908.188261774689!2d47.9688201!3d29.3689111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3db2897c05964d6!2sJobin%20International!5e0!3m2!1sen!2sin!4v1651750953563!5m2!1sen!2sin' },
+        { location: 'Kuwait', address: 'Kuwait City, Qibla Block No :15 Street Ali Al Salem Adel Tower Kuwait City, Kuwait', mapUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13908.188261774689!2d47.9688201!3d29.3689111!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3db2897c05964d6!2sJobin%20International!5e0!3m2!1sen!2sin!4v1651750953563!5m2!1sen!2sin' },
         {
             location: 'India', addresses: [
                 { location: 'changanassery', address: 'jihrd cmc xxvi/618(1), 2nd floor,city center,s.b. collage, changanacherry kottayam, kerala, india.686101', mapUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15742.81005583336!2d76.5398019!3d9.4474639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x855f586ed262cd0f!2sJIC%20INTERNATIONAL%20HUMAN%20RESOURCES%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1651818856783!5m2!1sen!2sin' },
