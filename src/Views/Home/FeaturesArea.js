@@ -6,6 +6,10 @@ import JIALogo from '../../Assets/Logos/JIA_v.png'
 import BlueRaysLogo from '../../Assets/Logos/BR LOGO 28-06-2022 WHITE.png'
 import JobinLogo from '../../Assets/Logos/JIHRD_v-01.png'
 import JicITLogo from '../../Assets/Logos/JIC IT SOLUTIONS LOGO WHITE.png'
+import eventsLogo from '../../Assets/Logos/eventsLogo.png'
+import mediaLogo from '../../Assets/Logos/mediaLogo.png'
+import flyworldLogo from '../../Assets/Logos/flyworldLogo.png'
+
 
 const FeaturesArea = () => {
 
@@ -52,7 +56,43 @@ const FeaturesArea = () => {
                         ))}
 
                     </div>
+
+                    
                 </div>
+
+                
+                <div className="row no-gutters" style={{justifyContent:'center', borderRadius: '10px'}}>
+                        {newCompanies.map(item => (
+
+                            <div className="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-6">
+                                <div className="features__item text-center">
+                                    <div className="features__thumb" data-background="assets/img/features/features-1.jpg" style={{ backgroundImage: 'url("assets/img/features/features-1.jpg")' }} />
+                                    <div className="features__content">
+                                        <div className="features__icon d-flex justify-content-center align-items-center" style={{height:'9rem'}}>
+                                            {/* <i className={item.icon} /> */}
+                                            <img src={item.icon} alt="" className={item.companyName == 'Bluerays' ? 'w-50' : 'w-75'} />
+                                        </div>
+                                        <p style={{
+                                            color: 'white',
+                                            fontSize: '13px',
+                                            lineHeight: '15px',
+                                            fontWeight: '600'
+                                        }} className='capitalize'>{item.title}</p>
+                                        <div className="features__btn">
+
+                                            <a href={item.url} className="link-btn" target={'_blank'}>
+                                                <i className="fal fa-long-arrow-right" />
+                                                <i className="fal fa-long-arrow-right" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+
+                    </div>
+
+
             </div>
         </section>
 
@@ -65,7 +105,13 @@ export const companies = [
     { icon: JIALogo, title: 'Win the Workplace with the winning Workforce…! Growth=Skill+ The right Labour ', companyName: 'Job In Arabia', url: 'https://www.job-in-arabia.com/' },
     { icon: JobinLogo, title: 'The Leader who makes your Business Empire! Ace your success with the right Workforce…', companyName: 'JIHRD', url: 'http://jihrd.in/' },
     { icon: FlyworldLogo, title: ' Fly together, to breathe the altitudes and embrace the memories…', companyName: 'Flyworld', url: 'https://www.flyworld.com.kw/' },
-    { icon: JicCinemaLogo, title: 'Treasuring the Art of Cinema, The Wizard who paints the Masterpiece… ', companyName: 'JI Cinemas', url: '' },
+    { icon: flyworldLogo, title: 'The World is Moulded in a Treasure Trove… & Tourism as its Crown Jewel…', companyName: 'Flyworld Luxury', url: 'https://flyworldluxury.com/' },
     { icon: JicITLogo, title: 'Innovating Future beyond Time… The Torchbearer for a New Dawn. ', companyName: 'JIC IT Solutions', url: 'https://jicitsolution.com/' },
 
+]
+export const newCompanies = [
+    { icon: eventsLogo, title: 'Merits for Your Events Feast and Festivity… Happiness gets the Spotlight here!…', companyName: 'JIC events', url: 'https://jicevent.com/' },
+    { icon: mediaLogo, title: 'Metamorphosing the World of Art… The Maestro of Movies & Media…', companyName: 'JIC media', url: 'https://jic-media.com/' },
+    { icon: JicCinemaLogo, title: 'Treasuring the Art of Cinema, The Wizard who paints the Masterpiece… ', companyName: 'JI Cinemas', url: 'https://jiccinema.com/' },
+    
 ]
