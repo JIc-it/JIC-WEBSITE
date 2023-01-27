@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { companies } from '../../Views/Home/FeaturesArea'
+import { newCompanies } from '../../Views/Home/FeaturesArea'
+
 
 const Footer = () => {
     const date = new Date()
@@ -39,6 +41,9 @@ const Footer = () => {
                                         <div className="footer__links">
                                             <ul>
                                                 {companies.map(item => (
+                                                    <li><a href={item.url} target={'_blank'}>{item.companyName}</a></li>
+                                                ))}
+                                                {newCompanies.map(item => (
                                                     <li><a href={item.url} target={'_blank'}>{item.companyName}</a></li>
                                                 ))}
 
